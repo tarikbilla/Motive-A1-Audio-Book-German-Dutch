@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Motive-A1-Audio-Book-German-Dutch/static/css/main.527b8888.css",
+    "main.js": "/Motive-A1-Audio-Book-German-Dutch/static/js/main.7f010657.js",
+    "index.html": "/Motive-A1-Audio-Book-German-Dutch/index.html",
+    "main.527b8888.css.map": "/Motive-A1-Audio-Book-German-Dutch/static/css/main.527b8888.css.map",
+    "main.7f010657.js.map": "/Motive-A1-Audio-Book-German-Dutch/static/js/main.7f010657.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.527b8888.css",
+    "static/js/main.7f010657.js"
+  ]
+}
