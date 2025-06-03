@@ -69,7 +69,8 @@ export default function App() {
 
       <div className="pdf-viewer">
         <Document
-          file="/motive-a1-kursbuch-1.pdf"
+          file={`${process.env.PUBLIC_URL}/motive-a1-kursbuch-1.pdf`}
+
           onLoadSuccess={({ numPages }) => setNumPages(numPages)}
         >
           <Page
@@ -100,6 +101,7 @@ export default function App() {
           <span>Page {currentPage} / {numPages}</span>
           <button onClick={goToNextPage}>Next ➡</button>
         </div>
+        <div className="copywrite">Develop By Tarik Billa</div>
       </div>
     </div>
   );
